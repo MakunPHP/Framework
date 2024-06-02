@@ -1,0 +1,22 @@
+{
+  "name": "makun/framework",
+  "description": "The Makun Framework.",
+  "type": "library",
+  "keywords": ["php", "Makun","Framework"],
+  "license": "MIT",
+  "homepage": "https://www.makun.com",
+  "authors": [
+    {
+      "name": "Makun",
+      "email": "code@makun.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "opencmf\\core\\": "src/core/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}
